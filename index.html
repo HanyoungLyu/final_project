@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryuryu's Playlist</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="player">
+        <h1>Ryuryu's Playlist</h1>
+        <div class="album-art">
+            <img id="album-art" src="Bluespring_cover.jpg" alt="Album Cover" width="190">
+        </div>
+        <h2 id="song-title">Blue Spring</h2>
+        <h3 id="song-artist">Ryuryu</h3>
+        <audio id="audio"></audio>
+		<div class="controls">
+			<img id="back" src="back.png" alt="Previous Song" width="20">
+			<img id="play" src="play.png" alt="Play" width="20">
+			<img id="pause" src="pause.png" alt="Pause" width="20" style="display: none;">
+			<img id="next" src="next.png" alt="Next Song" width="20">
+		</div>
+        <div id="progress-container" class="timeline">
+            <input type="range" id="progress-bar" value="0" step="1">
+            <div id="time-display">
+                <span id="current-time">0:00</span> / <span id="duration">0:00</span>
+            </div>
+        </div>
+        <div class="volume-control">
+            <img id="volume-button" src="speaker.png" alt="Volume" width="40">
+            <input type="range" id="volume-slider" min="0" max="100" step="1" value="100">
+        </div>
+    </div>
+    <script src="main2.js"></script>
+</body>
+</html>

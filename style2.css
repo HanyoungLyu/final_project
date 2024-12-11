@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(218, 255, 162);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.player {
+    background-color: #333;
+    padding: 45px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    width: 300px;
+    text-align: center;
+}
+
+
+.album-art img {
+    width: 70%;
+    border-radius: 1px;
+    margin-bottom: 15px;
+}
+
+h1, h2, h3 {
+    margin: 20px;
+}
+
+.controls img {
+    width: 40px; 
+    height: 50px; 
+    margin: 20px;
+    cursor: pointer;
+}
+
+.timeline {
+    margin-top: 10px;
+
+}
+
+#seek-bar {
+    width: 100%;
+    cursor: pointer;
+}
+
+#time-display {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.volume-control {
+    margin-top: 15px;
+    position: relative;
+}
+
+#volume-btn {
+    width: 10px;
+    cursor: pointer;
+}
+
+#volume-slider {
+    display: none; 
+    position: absolute;
+    top: 40px; 
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
